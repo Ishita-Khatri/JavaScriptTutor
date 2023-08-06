@@ -15,7 +15,7 @@ def get_options() -> dict:
                    "Advanced Concepts": ["Asynchronous Javascript", "Callbacks", "Promises", "Fetch API", "Async Await",
                                          "Error Handling"]
                }, "Blooms": ["Creating", "Remembering", "Applying"], "learning_outcome": {}}
-
+    #path to the csv file
     path = r"C:\Users\DELL\Desktop\AI assignment metadata for Javascript - Learning Outcomes.csv"
     df = pd.read_csv(path)
     for index, row in df.iterrows():
