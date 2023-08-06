@@ -1,0 +1,70 @@
+blooms_level,learning_outcome,concept
+Remembering,"Recall the syntax for declaring and assigning values to variables in JavaScript (var, let, const).",Data Types and Variables
+Remembering,"Remember the different data types available in JavaScript (e.g., Number, String, Boolean, Null, Undefined, Object, and Symbol).",Data Types and Variables
+Applying,Apply the knowledge of data types and variables to write basic JavaScript programs.,Data Types and Variables
+Applying,Apply appropriate variable naming conventions and follow best practices for variable declaration and initialization,Data Types and Variables
+Creating,Create complex programs that utilize appropriate data types and variables to achieve desired functionality.,Data Types and Variables
+Remembering,"Recall the various types of operators available in JavaScript (e.g., arithmetic, comparison, logical, assignment, etc.",Operators
+Applying,"Apply operators to perform basic arithmetic, comparison, and logical operations in JavaScript",Operators
+Creating,Create advanced programs that leverage operators for complex calculations and decision-making.,Operators
+Remembering,"Recall the syntax and usage of conditional statements in JavaScript (if, else if, else)",Conditionals
+Applying,Apply conditional statements to implement basic decision-making logic in JavaScript programs.,Conditionals
+Creating,Create complex programs that utilize nested conditionals and logical operators for advanced decision-making.,Conditionals
+Remembering,"Recall the syntax and usage of different types of loops in JavaScript (for, while, do-while).",Loops
+Applying,"Apply loops to iterate over arrays, perform calculations, and execute code based on specific conditions.",Loops
+Creating,"Create programs that utilize loops for advanced data manipulation, iteration, and control flow.",Loops
+Remembering,Recall the syntax for declaring and invoking functions in JavaScript.,Functions
+Remembering,Remember the concept of function parameters and arguments in JavaScript.,Functions
+Applying,Apply the knowledge of function declaration and invocation to solve basic programming problems.,Functions
+Applying,Create reusable functions with parameters to handle varying inputs and produce desired outputs.,Functions
+Creating,"Create complex programs that utilize functions for modularization, abstraction, and code reuse.",Functions
+Remembering,Recall the syntax for creating and manipulating strings in JavaScript.,Strings
+Remembering,"Remember the various string methods available in JavaScript (e.g., split, join, indexOf, etc.).",Strings
+Applying,"Apply string methods to perform common operations such as concatenation, substring extraction, and searching.",Strings
+Creating,"Create programs that leverage strings for text processing, parsing, and pattern matching.",Strings
+Remembering,Recall the concept of objects and their role in JavaScript as containers for properties and methods.,Objects and Classes
+Remembering,Remember how to create objects using object literal notation and the new keyword.,Objects and Classes
+Applying,Apply the knowledge of objects and classes to create and manipulate custom objects in JavaScript.,Objects and Classes
+Applying,Utilize object-oriented programming principles to design and implement modular and reusable code.,Objects and Classes
+Creating,Create complex programs that utilize custom objects and classes to model real-world entities and implement OOP principles.,Objects and Classes
+Remembering,Recall the syntax for creating and accessing elements in JavaScript arrays.,Arrays
+Remembering,"Remember the various array methods available in JavaScript (e.g., push, pop, slice, etc.).",Arrays
+Applying,"Apply array methods to perform common operations such as adding, removing, and manipulating elements.",Arrays
+Creating,"Create programs that leverage arrays for data manipulation, sorting, searching, and algorithmic implementations.",Arrays
+Remembering,Recall the different methods for selecting elements in the Document Object Model (DOM) using JavaScript.,Selecting Elements
+Remembering,Remember the different CSS selectors that can be used to target specific elements in the DOM.,Selecting Elements
+Applying,Apply DOM selection methods and CSS selectors to retrieve and manipulate specific elements on a web page.,Selecting Elements
+Creating,Create dynamic web pages that utilize DOM selection to manipulate and interact with elements in real-time.,Selecting Elements
+Remembering,Recall the different methods for modifying elements in the DOM using JavaScript.,Modifying Elements
+Remembering,Remember the different properties and attributes of DOM elements that can be modified.,Modifying Elements
+Applying,"Apply DOM modification methods to add, remove, and modify elements and their properties on a web page.",Modifying Elements
+Creating,Create interactive web pages that utilize dynamic element modification to provide a rich user experience.,Modifying Elements
+Remembering,"Recall the methods for creating new DOM elements in JavaScript (e.g., createElement, createTextNode).",Creating and Deleting Elements
+Remembering,"Remember the method for deleting DOM elements in JavaScript (e.g., removeChild).",Creating and Deleting Elements
+Applying,Apply JavaScript methods to dynamically create new DOM elements and add them to the document.,Creating and Deleting Elements
+Applying,Apply JavaScript methods to delete specific DOM elements from the document.,Creating and Deleting Elements
+Creating,Create dynamic web pages that dynamically create and delete DOM elements based on user interactions and data changes.,Creating and Deleting Elements
+Remembering,"Recall the different ways to handle events in JavaScript, such as inline event handlers and event listeners.",Events
+Applying,"Apply event handling techniques to respond to user interactions, such as clicks, mouse movements, and keyboard input.",Events
+Creating,Create interactive web applications that respond to various user interactions through event handling.,Events
+Remembering,Recall the concept of asynchronous programming and its benefits in handling time-consuming operations.,Asynchronous Javascript
+Remembering,"Remember the different asynchronous programming techniques in JavaScript, such as callbacks, promises, and async/await.",Asynchronous Javascript
+Applying,"Apply asynchronous programming techniques to handle asynchronous tasks, such as making API calls and handling timeouts.",Asynchronous Javascript
+Creating,Create robust web applications that leverage asynchronous programming to handle time-consuming tasks and provide a smooth user experience.,Asynchronous Javascript
+Remembering,Recall the concept of callbacks in JavaScript and their usage in asynchronous programming.,Callbacks
+Remembering,Remember the syntax for defining and passing callbacks to functions in JavaScript.,Callbacks
+Applying,Apply callbacks to handle asynchronous operations and execute code after the completion of asynchronous tasks.,Callbacks
+Creating,Create JavaScript programs that utilize callbacks to handle asynchronous operations and implement complex asynchronous workflows.,Callbacks
+Remembering,Recall the concept of promises in JavaScript and their usage in asynchronous programming.,Promises
+Remembering,Remember the syntax for creating and consuming promises in JavaScript.,Promises
+Applying,Apply promises to handle asynchronous tasks and handle resolved or rejected values using promise chains.,Promises
+Creating,Create JavaScript programs that utilize promises to handle asynchronous operations and implement complex asynchronous workflows in a more structured manner.,Promises
+Remembering,Recall the basic syntax for making HTTP requests using the Fetch API in JavaScript.,Fetch API
+Applying,Apply the Fetch API to make HTTP requests and handle responses by utilizing promises and chaining methods.,Fetch API
+Creating,Create JavaScript programs that utilize the Fetch API to retrieve and send data to remote servers and handle the returned responses.,Fetch API
+Remembering,Recall the syntax for using the async and await keywords in JavaScript.,Async Await
+Applying,Apply async functions and the await keyword to handle asynchronous operations in a more synchronous-like manner.,Async Await
+Creating,Create JavaScript programs that utilize async functions and the await keyword to handle complex asynchronous workflows with improved readability and error handling.,Async Await
+Remembering,Recall the different types of errors that can occur in JavaScript and their respective error messages.,Error Handling
+Applying,"Apply error handling techniques, such as try-catch blocks, to handle and manage errors in JavaScript code.",Error Handling
+Creating,Create robust JavaScript programs that include comprehensive error handling mechanisms and utilize debugging techniques to identify and resolve issues.,Error Handling
