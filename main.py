@@ -18,7 +18,7 @@ def get_options() -> dict:
                }, "Blooms": ["Creating", "Remembering", "Applying"], "learning_outcome": {}}
 
     path = r"https://github.com/Ishita-Khatri/JavaScriptTutor/blob/main/AI%20assignment%20metadata%20for%20Javascript%20-%20Learning%20Outcomes.csv"
-    df = pd.read_csv(path)
+    df = pd.read_csv(path, encoding='utf-8')
     for index, row in df.iterrows():
         concept = row['concept']
         blooms_level = row["blooms_level"]
