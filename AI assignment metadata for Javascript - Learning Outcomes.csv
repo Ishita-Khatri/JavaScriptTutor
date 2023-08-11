@@ -1,7 +1,7 @@
 blooms_level,learning_outcome,concept
-Remembering,Recall the syntax for declaring and assigning values to variables in JavaScript (var, let, const).,Data Types and Variables
-Remembering,Remember the different data types available in JavaScript (e.g., Number, String, Boolean, Null, Undefined, Object, and Symbol).,Data Types and Variables
-Applying,Apply the knowledge of data types and variables to write basic JavaScript programs.,Data Types and Variables
+Remembering,"Recall the syntax for declaring and assigning values to variables in JavaScript (var, let, const).",Data Types and Variables
+Remembering,"Remember the different data types available in JavaScript (e.g., Number, String, Boolean, Null, Undefined, Object, and Symbol).",Data Types and Variables
+Applying,"Apply the knowledge of data types and variables to write basic JavaScript programs.",Data Types and Variables
 Applying,Apply appropriate variable naming conventions and follow best practices for variable declaration and initialization,Data Types and Variables
 Creating,Create complex programs that utilize appropriate data types and variables to achieve desired functionality.,Data Types and Variables
 Remembering,Recall the various types of operators available in JavaScript (e.g., arithmetic, comparison, logical, assignment, etc.,Operators
