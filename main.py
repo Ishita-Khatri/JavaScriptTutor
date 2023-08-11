@@ -34,9 +34,12 @@ def get_options() -> dict:
     return options
 
 
-def generate_question(option_outcome) -> object:
+def generate_question(selected_outcome) -> object:
     # Generates question based on selected Learning outcome
-    prompt = f"Generate a question for the following learning outcome:\n{option_outcome}"
+    prompt = f"You are a Javascript tutor. Following is the learning outcome expected out of the question: \n{selected_outcome} " \
+             f"Generate a closed ended QUESTION that can be evaluated OBJECTIVELY." \
+             f"Also, IN ADDITION TO the question asked, ALWAYS ASK FOR EXAMPLES from the user." \
+             f"No need to mention the type of question you are asking. No need to mention Q or Question before the question."
 
     response = openai.Completion.create(
         engine="text-davinci-003",
@@ -110,7 +113,7 @@ def main():
     # creating question when the Start Training button is turned on and adding it to chat history
     if started:
         st.session_state.messages = []
-        st.session_state.messages.append({"role": "Assistant", "content": generate_question(outcome)})
+        st.session_state.messages.append({"role": "Assistant", "content": generate_question(selected_outcome)})
 
     # Taking user's input and getting the question generated
     if prompt_user := st.chat_input("Your Answer"):
